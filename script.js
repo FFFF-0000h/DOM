@@ -1,5 +1,6 @@
 //store the document for id in const "element"
 const element = document.getElementById("container");
+//store the doc for paragraph in variable container paragraph
 let paragraph = document.createElement('p');
 let node = document.createTextNode("Hey I'm Red!");
 paragraph.appendChild(node);
