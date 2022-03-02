@@ -8,6 +8,7 @@ let node = document.createTextNode("Hey I'm Red!");
 paragraph.appendChild(node);
 //then append (store, attach) the parent paragraph into the ID container stored in const "element" 
 element.appendChild(paragraph);
+//apply color to the paragraph using the (.style.color)
 paragraph.style.color = 'red';
 let header = document.createElement("h3");
 let nodeh = document.createTextNode("I'm a blue h3!")
