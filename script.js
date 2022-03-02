@@ -1,3 +1,4 @@
+//store the document for id in const "element"
 const element = document.getElementById("container");
 let paragraph = document.createElement('p');
 let node = document.createTextNode("Hey I'm Red!");
