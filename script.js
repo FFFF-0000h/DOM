@@ -1,8 +1,8 @@
 //store the document for id in const "element"
 const element = document.getElementById("container");
-//store the doc for paragraph in variable container paragraph
+//store the doc for new paragraph in variable container paragraph
 let paragraph = document.createElement('p');
-//store the doc for creating a paragraph text in variable node
+//store the doc for new paragraph text in variable node
 let node = document.createTextNode("Hey I'm Red!");
 //append (store, attach) the node variable in the paragraph variable making it a parent 
 paragraph.appendChild(node);
@@ -10,6 +10,7 @@ paragraph.appendChild(node);
 element.appendChild(paragraph);
 //apply color to the paragraph using the (.style.color)
 paragraph.style.color = 'red';
+//store the doc for new h3 element in variable header
 let header = document.createElement("h3");
 let nodeh = document.createTextNode("I'm a blue h3!")
 header.appendChild(nodeh);
