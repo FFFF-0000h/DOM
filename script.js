@@ -4,8 +4,9 @@ const element = document.getElementById("container");
 let paragraph = document.createElement('p');
 //store the doc for creating a paragraph text in variable node
 let node = document.createTextNode("Hey I'm Red!");
-//append(store, attach) the node variable in the paragraph variable making it a parent 
+//append (store, attach) the node variable in the paragraph variable making it a parent 
 paragraph.appendChild(node);
+//then append (store, attach) the parent paragraph into the ID container stored in const "element" 
 element.appendChild(paragraph);
 paragraph.style.color = 'red';
 let header = document.createElement("h3");
