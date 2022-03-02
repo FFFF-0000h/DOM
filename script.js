@@ -2,6 +2,7 @@
 const element = document.getElementById("container");
 //store the doc for paragraph in variable container paragraph
 let paragraph = document.createElement('p');
+//store the doc for creating a paragraph text in variable node
 let node = document.createTextNode("Hey I'm Red!");
 paragraph.appendChild(node);
 element.appendChild(paragraph);
