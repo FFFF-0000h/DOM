@@ -12,6 +12,7 @@ element.appendChild(paragraph);
 paragraph.style.color = 'red';
 //store the doc for new h3 element in variable header
 let header = document.createElement("h3");
+//store the doc for new text in header in variable nodeh
 let nodeh = document.createTextNode("I'm a blue h3!")
 header.appendChild(nodeh);
 element.appendChild(header);
