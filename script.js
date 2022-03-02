@@ -4,6 +4,7 @@ const element = document.getElementById("container");
 let paragraph = document.createElement('p');
 //store the doc for creating a paragraph text in variable node
 let node = document.createTextNode("Hey I'm Red!");
+//append(store, attach) the node variable in the paragraph variable making it a parent 
 paragraph.appendChild(node);
 element.appendChild(paragraph);
 paragraph.style.color = 'red';
